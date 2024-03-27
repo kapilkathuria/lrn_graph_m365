@@ -1,0 +1,4 @@
+# Graph module
+Install-Module -Name Microsoft.Graph
+
+Install-Module -Name Set-PsEnv
