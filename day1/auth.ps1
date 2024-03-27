@@ -12,7 +12,7 @@ Function Get-AuthToken {
 		$ClientSecret
 	)
 	
-    $resource = "https://graph.microsoft.com"
+	$resource = "https://graph.microsoft.com"
 	$tokenEndpointUri = "https://login.microsoftonline.com/$TenantID/oauth2/token"
 
 	# Get the access token using grant type client_credentials for Application Permissions
